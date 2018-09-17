@@ -34,3 +34,4 @@ def write_file(data, file_name):
         csv_writer.writeheader()
         for row in data:
             csv_writer.writerow(row)
+
